@@ -1,5 +1,5 @@
-import HomeScreen from './(tabs)/screens/HomeScreen.js';
+import HomeScreen from '../screens/HomeScreen';
 
 export default function Index() {
-  return <HomeScreen navigation={undefined} />;
+  return <HomeScreen />;
 }
